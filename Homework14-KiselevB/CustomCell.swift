@@ -45,7 +45,7 @@ class CustomCell: UICollectionViewCell {
         contentView.addSubview(iv)
         contentView.addSubview(firstLabel)
         contentView.addSubview(secondLabel)
-        iv.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
+        iv.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15).isActive = true
         iv.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
         iv.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
         iv.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -40).isActive = true
