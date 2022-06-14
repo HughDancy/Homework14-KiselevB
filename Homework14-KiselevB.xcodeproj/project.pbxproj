@@ -14,6 +14,7 @@
 		D8429A2B284E244C00DA25BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8429A29284E244C00DA25BD /* LaunchScreen.storyboard */; };
 		D8429A33284F47E700DA25BD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8429A32284F47E700DA25BD /* Data.swift */; };
 		D8429A3528506D5300DA25BD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8429A3428506D5300DA25BD /* CustomCell.swift */; };
+		D8429A392858CD0000DA25BD /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8429A382858CD0000DA25BD /* TableCell.swift */; };
 		D85142AF2850999600F0BCE4 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85142AE2850999600F0BCE4 /* Header.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		D8429A2C284E244C00DA25BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8429A32284F47E700DA25BD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D8429A3428506D5300DA25BD /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D8429A382858CD0000DA25BD /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		D85142AE2850999600F0BCE4 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,10 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				D85142AE2850999600F0BCE4 /* Header.swift */,
+				D8429A382858CD0000DA25BD /* TableCell.swift */,
 				D8429A3428506D5300DA25BD /* CustomCell.swift */,
+				D8429A22284E244A00DA25BD /* ViewController.swift */,
 				D8429A32284F47E700DA25BD /* Data.swift */,
 				D8429A1E284E244A00DA25BD /* AppDelegate.swift */,
-				D8429A22284E244A00DA25BD /* ViewController.swift */,
 				D8429A24284E244A00DA25BD /* Main.storyboard */,
 				D8429A27284E244C00DA25BD /* Assets.xcassets */,
 				D8429A29284E244C00DA25BD /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8429A392858CD0000DA25BD /* TableCell.swift in Sources */,
 				D85142AF2850999600F0BCE4 /* Header.swift in Sources */,
 				D8429A23284E244A00DA25BD /* ViewController.swift in Sources */,
 				D8429A33284F47E700DA25BD /* Data.swift in Sources */,

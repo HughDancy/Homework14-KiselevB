@@ -9,9 +9,9 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-  var window: UIWindow?
-
+    
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let tabBarController = UITabBarController()
@@ -26,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         secondViewController.tabBarItem = UITabBarItem(title: "Для Вас", image: UIImage(named: "ForYou"), tag: 1)
         
         let thirdViewController = ViewController()
+        let thirdNavigationController = UINavigationController(rootViewController: thirdViewController)
         thirdViewController.tabBarItem = UITabBarItem(title: "Альбомы", image: UIImage(named: "Albums"), tag: 2)
         
         
@@ -36,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         tabBarController.setViewControllers([
             firstViewController,
             secondViewController,
-            thirdViewController,
+            thirdNavigationController,
             fourViewController
         ], animated: true)
         
@@ -44,8 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         return true
     }
-
-   
-
+    
+    
+    
 }
 

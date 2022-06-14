@@ -7,33 +7,31 @@
 
 import UIKit
 
-let header = "headerId"
-
 class Header: UICollectionReusableView {
     
-    let title: UILabel = {
-        let title = UILabel()
-        title.text = "Мои альбомы"
-        title.font = UIFont(name: "Helvetica", size: 20)
-        title.textColor = .black
-        
-        return title
-    }()
+    static let sectionHeader = "Header"
+    
+    let title = UILabel()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        elementSettings()
         setupHeaderLayout()
-        
-        addSubview(title)
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
+    func elementSettings() {
+        title.textColor = .black
+        title.font = UIFont(name: "Helvetica-Bold", size: 20)
+    }
+    
     func setupHeaderLayout() {
+        addSubview(title)
         title.translatesAutoresizingMaskIntoConstraints = false
         title.topAnchor.constraint(equalTo:  topAnchor, constant: 3).isActive = true
-        title.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        title.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 3).isActive = true
     }
 }
