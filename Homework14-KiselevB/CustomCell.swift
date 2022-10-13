@@ -11,6 +11,7 @@ class CustomCell: UICollectionViewCell {
     lazy var iv: UIImageView = {
         let iv = UIImageView()
         iv.image = UIImage()
+        iv.contentMode = .scaleAspectFill
         iv.translatesAutoresizingMaskIntoConstraints = false
         iv.clipsToBounds = true
         iv.layer.cornerRadius = 5

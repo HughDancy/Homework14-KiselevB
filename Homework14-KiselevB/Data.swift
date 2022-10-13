@@ -33,8 +33,8 @@ let sharedAlbunsFourCell = Data(title: "Мемы", secondTitle: "9 999", image: 
 
 // MARK: - Создание данных для ячеек секции Типы медиафайлов
 
-let typeOfMediaOneCell = Data(title: "Видео", secondTitle: "930", image: UIImage(named: "Video")!)
-let typeOfMediaTwoCell = Data(title: "Селфи", secondTitle: "31", image: UIImage(named: "Selfies")!)
+let typeOfMediaOneCell = Data(title: "Видео", secondTitle: "930", image: UIImage(systemName: "video")!)
+let typeOfMediaTwoCell = Data(title: "Селфи", secondTitle: "31", image: UIImage(systemName: "person.crop.square")!)
 let typeOfMediaThreeCell = Data(title: "Фото Live Photos", secondTitle: "32", image: UIImage(named: "LifePhotos")!)
 let typeOfMediaFourCell = Data(title: "Портреты", secondTitle: "10", image: UIImage(named: "Portraits")!)
 let typeOfMediaFiveCell = Data(title: "Замедленно", secondTitle: "10", image: UIImage(named: "Slowmotion")!)

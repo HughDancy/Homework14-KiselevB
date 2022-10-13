@@ -12,6 +12,7 @@ class TableCell: UICollectionViewListCell {
     lazy var iv: UIImageView = {
         let iv = UIImageView()
         iv.image = UIImage()
+        iv.contentMode = .scaleAspectFill
         iv.translatesAutoresizingMaskIntoConstraints = false
         
         return iv
