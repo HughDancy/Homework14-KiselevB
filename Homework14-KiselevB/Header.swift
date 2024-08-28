@@ -7,12 +7,13 @@
 
 import UIKit
 
-class Header: UICollectionReusableView {
-    
+final class Header: UICollectionReusableView {
     static let sectionHeader = "Header"
-    
+
+    // MARK: - Subview's
     let title = UILabel()
     
+    // MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)
         elementSettings()
@@ -23,6 +24,7 @@ class Header: UICollectionReusableView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - Setup Elements
     func elementSettings() {
         title.textColor = .black
         title.font = UIFont(name: "Helvetica-Bold", size: 20)
