@@ -33,19 +33,19 @@ let sharedAlbunsFourCell = Data(title: "Мемы", secondTitle: "9 999", image: 
 
 // MARK: - Создание данных для ячеек секции Типы медиафайлов
 
-let typeOfMediaOneCell = Data(title: "Видео", secondTitle: "930", image: UIImage(named: "Video")!)
-let typeOfMediaTwoCell = Data(title: "Селфи", secondTitle: "31", image: UIImage(named: "Selfies")!)
-let typeOfMediaThreeCell = Data(title: "Фото Live Photos", secondTitle: "32", image: UIImage(named: "LifePhotos")!)
-let typeOfMediaFourCell = Data(title: "Портреты", secondTitle: "10", image: UIImage(named: "Portraits")!)
-let typeOfMediaFiveCell = Data(title: "Замедленно", secondTitle: "10", image: UIImage(named: "Slowmotion")!)
-let typeOfMediaSixCell = Data(title: "Снимки экрана", secondTitle: "136", image: UIImage(named: "ScrennShot")!)
-let typeOfMediaSevenCell = Data(title: "Записи экрана", secondTitle: "7", image: UIImage(named: "ScreenRecord")!)
+let typeOfMediaOneCell = Data(title: "Видео", secondTitle: "930", image: UIImage(systemName: "video")!)
+let typeOfMediaTwoCell = Data(title: "Селфи", secondTitle: "31", image: UIImage(systemName: "person.crop.square")!)
+let typeOfMediaThreeCell = Data(title: "Фото Live Photos", secondTitle: "32", image: UIImage(systemName: "livephoto")!)
+let typeOfMediaFourCell = Data(title: "Портреты", secondTitle: "10", image: UIImage(systemName: "f.cursive.circle")!)
+let typeOfMediaFiveCell = Data(title: "Замедленно", secondTitle: "10", image: UIImage(systemName: "slowmo")!)
+let typeOfMediaSixCell = Data(title: "Снимки экрана", secondTitle: "136", image: UIImage(systemName: "camera.viewfinder")!)
+let typeOfMediaSevenCell = Data(title: "Записи экрана", secondTitle: "7", image: UIImage(systemName: "smallcircle.filled.circle")!)
 
 // MARK: - Создание данных для ячеек секции Дургое
 
-let otherOneCell = Data(title: "Импортированные", secondTitle: "6", image: UIImage(named: "Import")!)
-let otherTwoCell = Data(title: "Скрытые", secondTitle: "0", image: UIImage(named: "Hide")!)
-let otherThreeCell = Data(title: "Недавно удаленные", secondTitle: "11", image: UIImage(named: "Deleted")!)
+let otherOneCell = Data(title: "Импортированные", secondTitle: "6", image: UIImage(systemName: "square.and.arrow.down")!)
+let otherTwoCell = Data(title: "Скрытые", secondTitle: "0", image: UIImage(systemName: "eye.slash")!)
+let otherThreeCell = Data(title: "Недавно удаленные", secondTitle: "11", image: UIImage(systemName: "trash")!)
 
 //MARK: - Создание структуры SectionData, ее экземлпяров, а также пустого массива
 

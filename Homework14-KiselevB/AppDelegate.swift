@@ -19,20 +19,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let firstViewController = UIViewController()
         firstViewController.view.backgroundColor = .white
-        firstViewController.tabBarItem = UITabBarItem(title: "Медиатека", image: UIImage(named: "Mediateca"), tag: 0)
-        
+        firstViewController.tabBarItem = UITabBarItem(title: "Медиатека", image: UIImage(systemName: "photo.on.rectangle"), tag: 0)
+
         let secondViewController = UIViewController()
         secondViewController.view.backgroundColor = .white
-        secondViewController.tabBarItem = UITabBarItem(title: "Для Вас", image: UIImage(named: "ForYou"), tag: 1)
-        
+        secondViewController.tabBarItem = UITabBarItem(title: "Для Вас", image: UIImage(systemName: "heart.text.square"), tag: 1)
+
         let thirdViewController = ViewController()
         let thirdNavigationController = UINavigationController(rootViewController: thirdViewController)
-        thirdViewController.tabBarItem = UITabBarItem(title: "Альбомы", image: UIImage(named: "Albums"), tag: 2)
-        
+        thirdViewController.tabBarItem = UITabBarItem(title: "Альбомы", image: UIImage(systemName: "person.crop.rectangle.stack.fill"), tag: 2)
+
         
         let fourViewController = UIViewController()
         fourViewController.view.backgroundColor = .white
-        fourViewController.tabBarItem = UITabBarItem(title: "Поиск", image: UIImage(named: "Search"), tag: 3)
+        fourViewController.tabBarItem = UITabBarItem(title: "Поиск", image: UIImage(systemName: "magnifyingglass"), tag: 3)
         
         tabBarController.setViewControllers([
             firstViewController,
@@ -44,9 +44,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
         return true
-    }
-    
-    
-    
+    } 
 }
 
